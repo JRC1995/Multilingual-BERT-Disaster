@@ -3,6 +3,8 @@ import numpy as np
 from scipy import stats
 from pathlib import Path
 
+#Functions from : https://github.com/rtmdrr/testSignificanceNLP
+
 
 def calculateContingency(data_A, data_B, n):
     ABrr = 0
