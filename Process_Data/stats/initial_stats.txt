@@ -1,0 +1,61 @@
+Total Data: 134439
+
+Disaster Statistics
+
+Cyclone Pam: 2559
+Mixed: 2416
+Hurricane Sandy: 9219
+Alberta Floods: 10144
+Queensland Floods: 8706
+Lac Megantic Train Crash: 850
+Boston Bombings: 9950
+West Texas Explosion: 9590
+Oklahoma Tornado: 9220
+Colorado Wildfires: 920
+Costa Rica Earthquake: 771
+Guatemala Earthquake: 821
+Italy Earthquake: 868
+Philipinnes Floods: 768
+Typhoon Pablo: 850
+Venezuela Refinery: 878
+Australia Bushfire: 879
+Bohol Earthquake: 810
+Brazil Nightclub Fire: 751
+Colorado Floods: 1666
+LA Airport Shootings: 820
+Manila Floods: 831
+NY Train Crash: 771
+Russia Meteor: 947
+Sardinia Floods: 817
+Savar Building Collapse: 818
+Singapore Haze: 710
+Spain Train Crash: 822
+Typhoon Yolanda: 824
+Typhoon Hagupit: 10798
+California Wildfires: 1431
+Hurricane Harvey: 3830
+Hurricane Irma: 3876
+Hurricane Maria: 3653
+Mexico Earthquake: 1210
+Iraq Iran Earthquake: 495
+Srilanka Floods: 815
+Pakistan Earthquake: 1873
+California Earthquake: 1857
+Chile Earthquake: 4945
+Ebola: 1766
+Hurricane Odile: 1413
+India Floods: 1793
+Middle East Respiratory Syndrome: 1656
+Pakistan Floods: 1765
+Nepal Earthquake: 12908
+Iceland volcano: 348
+Malaysia Airline MH370: 27
+
+
+Label Statistics
+
+unlabeled: 54797
+casaulties and damage: 16237
+not informative: 55110
+donation: 9177
+caution and advice: 3655

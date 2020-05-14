@@ -1,0 +1,3 @@
+Training Data: 99015
+Validation Data: 10000
+Testing Data: 13959
