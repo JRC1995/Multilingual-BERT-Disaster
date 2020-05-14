@@ -1,0 +1,11 @@
+{"trainable_embeddings": true,
+ "embedding_dropout": 0,
+ "output_channel": 100,
+ "dropout": 0.5,
+"lr":1e-2,
+"fine_tune_lr":1e-4,
+"wd":1e-2,
+"total_train_batch_size": 64,
+"train_batch_size": 64,
+"val_batch_size": 64,
+"max_grad_norm": 5}
