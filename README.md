@@ -3,4 +3,4 @@ Resources for: Cross-Lingual Disaster-related Multi-label Tweet Classification w
 
 ReadMe will updated soon.
 
-Contact me for any question. 
+Contact me for any question or other resource.
