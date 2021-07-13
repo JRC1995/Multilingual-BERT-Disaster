@@ -1,3 +1,6 @@
+# Credits
+The [BERT-encoder codes](https://github.com/JRC1995/Multilingual-BERT-Disaster/tree/master/Lib/Encoders) are adapted and modified from Huggingface Transformers. 
+
 # Multilingual-BERT-Disaster
 Resources for: Cross-Lingual Disaster-related Multi-label Tweet Classification with Manifold Mixup (ACL SRW 2020)
 https://www.aclweb.org/anthology/2020.acl-srw.39.pdf
@@ -347,9 +350,14 @@ et al., 2014) and CrisisLexT26 (Olteanu et al.,
 2015) from CrisisLex.
 ```
 
+# Instructions
+1. Run `bash process.sh` (if you haven't already) to preprocess the downloaded files.
+2. Run `save_pre_trained_locally.py` to download pre-trained weights.
+3. To train, go to `train/` and run `train.py --model=X --lang=Y` where X can be any model you want to run in `["BOW_mean", "FastText", "BERT_word_mixup", "BERT_sent_mixup", "CNN", "XML_CNN", "DenseCNN", "BiLSTM", "BERT", "BERT_mixup]` (BERT_mixup is BERT + manifold mixup) and Y is `en` for using English only dataset and `all` for multilingual. 
+
 Email me for any question or other resources.
 
-Citation:
+#Citation:
 
 ```
 @inproceedings{ray-chowdhury-etal-2020-cross,
