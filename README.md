@@ -351,6 +351,7 @@ et al., 2014) and CrisisLexT26 (Olteanu et al.,
 ```
 
 # Instructions
+(use Transformers 2.3.0)
 1. Run `save_pre_trained_locally.py` to download pre-trained weights.
 2. Download [crawl-300d-2M-subword.zip](https://fasttext.cc/docs/en/english-vectors.html). Extract and put the extracted file `crawl-300d-2M-subword.bin` into `Embeddings/`. 
 3. Download [glove.twitter.27B.zip](https://nlp.stanford.edu/projects/glove/). Extract and put the extracted file into `Embeddings/`.
