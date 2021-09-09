@@ -29,6 +29,7 @@ import numpy as np
 import math
 import logging
 import copy
+from pathlib import Path
 logging.disable(logging.CRITICAL)
 
 
@@ -428,6 +429,8 @@ while time < times:
         checkpoint_path = "../Model_Backup/{}_{}_{}_DSC.pt".format(model_name, language, time)
     else:
         checkpoint_path = "../Model_Backup/{}_{}_{}.pt".format(model_name, language, time)
+    
+    Path('../Model_Backup/').mkdir(parents=True, exist_ok=True)
 
     if load.lower() == 'y':
 
