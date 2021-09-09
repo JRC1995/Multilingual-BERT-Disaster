@@ -353,6 +353,7 @@ et al., 2014) and CrisisLexT26 (Olteanu et al.,
 # Instructions
 1. Run `save_pre_trained_locally.py` to download pre-trained weights.
 2. Download [crawl-300d-2M-subword.zip](https://fasttext.cc/docs/en/english-vectors.html). Extract and put the extracted file `crawl-300d-2M-subword.bin` into `Embeddings/`. 
+3. Download [glove.twitter.27B.zip](https://nlp.stanford.edu/projects/glove/). Extract and put the extracted file into `Embeddings/`.
 4. Run `bash process.sh` from `Process_Data/` (if you haven't already) to preprocess the downloaded files.
 5. To train, go to `train/` and run `train.py --model=X --lang=Y` where X can be any model you want to run in `["BOW_mean", "FastText", "BERT_word_mixup", "BERT_sent_mixup", "CNN", "XML_CNN", "DenseCNN", "BiLSTM", "BERT", "BERT_mixup]` (BERT_mixup is BERT + manifold mixup) and Y is `en` for using English only dataset and `all` for multilingual. 
 6. To test, go to `test/` and run `test.py --model=X --lang=Y` where X and Y means the same thing as in 3. 
